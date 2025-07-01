@@ -7,6 +7,8 @@ from core.system import StockPredictionSystem
 from core.utils import setup_logging, logger
 import os
 from config import Config
+import matplotlib
+matplotlib.use('Qt5Agg')
 
 
 def load_config() -> Dict[str, Any]:

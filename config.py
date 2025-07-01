@@ -16,7 +16,7 @@ class Config:
             'columns': ['Date', 'Close']
         },
         'animation': {
-            'interval': 50,
+            'interval': 20,
             'figure_size': (14, 10),
             'dpi': 100
         },
